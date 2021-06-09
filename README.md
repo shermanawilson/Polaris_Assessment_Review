@@ -155,10 +155,10 @@
         isNotNumeric("-362")         // false
         isNotNumeric(Infinity)       // false
         isNotNumeric(-Infinity)      // false
-        isNumeric(0.000001)          // false
-        isNumeric(-0.000001)         // false
-        isNumeric("0.000001")        // false
-        isNumeric("-0.000001")       // false
+        isNotNumeric(0.000001)          // false
+        isNotNumeric(-0.000001)         // false
+        isNotNumeric("0.000001")        // false
+        isNotNumeric("-0.000001")       // false
         isNotNumeric(0)              // false
         isNotNumeric("0")            // false
 
