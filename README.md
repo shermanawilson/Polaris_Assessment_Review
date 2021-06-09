@@ -1,21 +1,5 @@
 # JavaScript Basics Assessment
 
-## Core competencies assessed
-
-- Reading and following directions
-- Producing solutions that match the problem specification
-- Using Git and working with GitHub
-    - Cloning a git repository from GitHub
-    - Creating your own branch
-    - Committing and pushing work to a new branch on GitHub
-
-- Programing fundamentals in JavaScript
-    - Working with values, variables, and data types
-    - Using assignment and comparision operators
-    - Working with JS internal functions to make decisions and perform actions.
-    - Writing functions that take in inputs, process, and return outputs.
-
-
 ## Instructions
 
 1. Fork this Repository under your github account.
@@ -24,9 +8,9 @@
 
 1. Write your solutions to the problems presented below inside `solutions.js`.
 
-1. Read the Testing instructions below.
+1. To view which tests are passing open the `index.html`
 
-1. Add, commit often (preferably every time you finish a problem), and only push your firstName-lastName branch to GitHub when an instructor tells you to.
+1. Add, commit often (preferably every time you finish a problem)
 
 ## Problems
 
