@@ -1,15 +1,2 @@
-function doingJavaScriptRightNow(){
-    return true;
-}
+// Write your Solutions here!!
 
-function onMarsRightNow(){
-    return false;
-}
-
-function sayHello(name) {
-    if(!name || !isNaN(name)){
-        return "Hello, world!";
-    }
-
-    return "Hello, " + name + "!";
-}
