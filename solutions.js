@@ -10,7 +10,7 @@ function doingJavaScriptRightNow() {
 function onMarsRightNow() {
     return false;
 }
-// # 3 (Hard)
+// # 3 Done
 function sayHello(name) {
    // let name ;
     if (typeof name === "string" && name !== "" && isNaN(name)) {
@@ -23,81 +23,118 @@ function sayHello(name) {
     //     return "Hello, " + name + "!";
      }
 
-console.log(sayHello("Shelly"));
+console.log(sayHello("Armani"));
 
 // #4
+// function plusTwo(number) {
+//     if (number !== isNaN) {
+//         return (Number(number) + 2);
+//     }
+//     if (typeof number == "string") {
+//         return NaN;
+//     }
+//
+// }
+// console.log(plusTwo(""));
+
+// parseInt- if you put in a number or string, it will return integer value, if it cant it'll return NaN
 function plusTwo(number) {
-    if (number !== isNaN) {
-        return (Number(number) + 2);
-    }
-    if (typeof number == "string") {
-        return NaN;
-    }
-
+    return parseFloat(number) + 2;
 }
-console.log(plusTwo(""));
 
+function anotherNumber(number) {
+    result = parseInt(number) + 2;
+}
 // #5
+// function addOne(number) {
+//     if(typeof number == "number") {
+//         number = (Number(number));
+//         return (number + 1);
+//     } else {
+//         return NaN;
+//     }
+//
+// }
+
 function addOne(number) {
-    if(typeof number == "number") {
-        number = (Number(number));
-        return (number + 1);
-    } else {
-        return NaN;
-    }
-
+    return parseFloat(number) + 1;
 }
-
 // # 6
+// function isPositive(number) {
+//     if(parseFloat(number) > 0) {
+//         return true;
+// }
+//     if(parseFloat(number) < 0) {
+//         let answer = parseFloat(number);
+//     return false;
+//     } else {
+//         return NaN;
+//     }
+// }
+
 function isPositive(number) {
-    if(number > 0) {
-        return true;
-}
-    if(number <= 0) {
-    return false;
-    } else {
+    let answer = parseFloat(number);
+    console.log(number);
+    console.log(NaN);
+    if (isNaN(answer)) {
         return NaN;
     }
+    return (answer > 0);
 }
-
-
 // # 7
 
 function isNegative(number) {
-    if (number < 0) {
-        return true;
-    } else {
-        return false;
+    let answer = parseFloat(number);
+    if (isNaN(answer)) {
+        return NaN;
     }
+    return (answer < 0);
 }
 
 
 // # 8
 
 function isNumeric(number) {
-    if(number !== NaN) {
-        return true;
-    }
-    if(number == NaN) {
-        return false;
-    }
+    // if(number !== NaN) {
+    //     return true;
+    // }
+    // if(number == NaN) {
+    //     return false;
+    // }
+    let answer = parseFloat(number);
+        return !isNaN(answer);
+
 }
 
 
-// # 9
+// # 9 ** Useful to know**
 function isNotNumeric(number) {
-    if(number == isNaN ) {
-        if (typeof number !== "number") {
-            return true;
-        }
-    } else {
-        return false;
-    }
+    let answer = parseFloat(number);
+    return isNaN(answer);
 }
 // #10
 
-function isVowel(string) {
-    if ((string == "a") || (string == "e") || (string == "i") || (string == "o") || (string = "u")) {
-        return true;
+function isVowel(value) {
+    if (typeof value !== "string") {
+        return false;
     }
+    // if(value.length !== 1) {
+    //     return false;
+    // }
+    value = value.toUpperCase();
+    //console.log(value);
+    //console.log("");
+    switch (value) {
+        case "A" :
+            return true;
+        case "E" :
+            return true;
+        case "I" :
+            return true;
+        case "O" :
+            return true;
+        case "U" :
+            return true;
+    }
+    return false;
 }

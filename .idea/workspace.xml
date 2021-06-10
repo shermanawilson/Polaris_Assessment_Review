@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5440f01a-9914-4338-9642-788ba95356c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +91,7 @@
       <workItem from="1623171251167" duration="12795000" />
       <workItem from="1623201692719" duration="22403000" />
       <workItem from="1623305416018" duration="7014000" />
-      <workItem from="1623334611914" duration="967000" />
+      <workItem from="1623334611914" duration="5737000" />
     </task>
     <servers />
   </component>
