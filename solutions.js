@@ -13,9 +13,9 @@ function onMarsRightNow() {
 // # 3 (Hard)
 function sayHello(name) {
    // let name ;
-    if(typeof name == isNaN, typeof name == "number", typeof name == NaN) {
+    if (typeof name === "string" && name !== "" && isNaN(name)) {
+    //if(typeof name == isNaN, typeof name == "number", typeof name == NaN) {
             return "Hello, " + name + "!";
-       // return "Hello, " + name + "!";
     } else {
         return "Hello, world!";
     }
